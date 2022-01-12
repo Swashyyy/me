@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body::-webkit-scrollbar {
+    width: 12px; /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #141414; /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: white; /* color of the scroll thumb */
+    border-radius: 20px; /* roundness of the scroll thumb */
+    border: 3px solid #141414; /* creates padding around scroll thumb */
+  }
+
+html {
+
+  scroll-behavior: smooth;
+
+}
+
+body {
+
+  font-family: 'Roboto';
+  
+  overflow-x: hidden;
+  
+}
+
+.home {
+
+    color: white;
+
+    background-color: #141414;
+
+    height: 100vh;
+
+    text-align: center;
+}
+
+.home__title {
+
+  font-family: 'Krona One';
+
+
+  padding-top: 40vh;
+
+  font-size: 4rem;
+
+}
+
+.home__subtitle {
+
+  font-family: 'Krona One';
+
+  margin-top: .5rem;
+
+  font-size: 1.5rem;
+
+}
+
+.skills {
+
+    background-color: white;
+    
+    color: 141414;
+
+    height: 100vh;
+
+    text-align: center;
+}
+
+.skills__title {
+
+  color: #141414;
+
+  font-family: 'Krona One';
+
+  padding-top: 15vh;
+
+  font-size: 3rem;
+
+}
+
+.skills__subtitle {
+
+  color: #141414;
+
+  font-family: 'Krona One';
+
+  margin-top: .5rem;
+
+  font-size: 1rem;
+
+}
+
+.skills__div {
+
+  background-color: #e9e9e9;
+
+  width: auto;
+
+  text-align: center;
+
+  border-radius: 10px;
+
+  margin: 5% 25%;
+
+}
+
+.skills i {
+
+  color: #141414; 
+
+  font-size: 3rem;
+
+  padding-top: 2rem;
+
+  padding-bottom: 2rem;
+
+}
+
+.contact {
+
+    color: white;
+
+    background-color: #141414;
+
+    height: 100vh;
+
+    text-align: center;
+}
+
+.contact__title {
+
+  font-family: 'Krona One';
+
+  padding-top: 15vh;
+
+  font-size: 3rem;
+
+}
+
+.contact__subtitle {
+
+  font-family: 'Krona One';
+
+  margin-top: .5rem;
+
+  font-size: 1.5rem;
+
+}
+
+.contact__div {
+
+  background-color: rgb(34, 34, 34);
+
+  text-align: center;
+
+  border-radius: 10px;
+
+  margin: 5% 35%;
+
+}
+
+.contact i {
+
+  color: white; 
+
+  font-size: 3rem;
+
+  margin-top: 2rem;
+
+  margin-bottom: 2rem;
+
+  transition: all .2s;
+
+}
+
+.contact i:hover {
+
+  color: #a3a3a3;
+
+  transition: all 0.2s ease-in-out;
+
+  margin-top: 2rem;
+
+  margin-bottom: 2rem;
+
+}
+
+
